@@ -1,4 +1,3 @@
-module.exports.linkTo=function(text, address)
-{
-	return "<a href='bloc.io" + text + "'>" + Bloc + "</a>";
+module.exports.linkTo = function(text, address) {   
+  return "<a href='" + address + "'>" + text + "</a>"
 };
